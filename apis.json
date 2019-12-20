@@ -1,0 +1,65 @@
+{
+    "name": "Wealthfront",
+    "description": "We're hiring! Come help us re-architect the financial industry the right way. Take a look at our open positions here; https:\/\/www.wealthfront.com\/careers.    We're located in Redwood City, CA, right next to the Caltrain station. Feel free to stop in to...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28316-www-wealthfront-com.jpg",
+    "tags": [
+        "financial",
+        "financial services",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/wealthfront\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Wealthfront",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28316-www-wealthfront-com.jpg",
+            "humanURL": "https:\/\/www.wealthfront.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/wealthfront-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/wealthfront"
+        },
+        {
+            "type": "Email",
+            "url": "press@wealthfront.com"
+        },
+        {
+            "type": "Email",
+            "url": "partnerships@wealthfront.com"
+        },
+        {
+            "type": "Email",
+            "url": "affiliate@wealthfront.com"
+        },
+        {
+            "type": "Email",
+            "url": "copyright@wealthfront.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@wealthfront.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Wealthfront"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.wealthfront.com"
+        }
+    ]
+}
