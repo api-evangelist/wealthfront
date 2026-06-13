@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.wealthfront.com/#organization",
+  "name": "Wealthfront",
+  "url": "https://www.wealthfront.com",
+  "logo": "https://www.wealthfront.com/favicon.ico",
+  "description": "Wealthfront is an automated investment service offering REST APIs and integrations for portfolio management, financial planning, tax optimization, direct indexing, and cash account management. Founded in 2008 and headquartered in Palo Alto, California, Wealthfront manages approximately $95 billion in assets for over 1.4 million clients as of 2026.",
+  "foundingDate": "2008",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Palo Alto, California, USA"
+  },
+  "sameAs": [
+    "https://github.com/wealthfront",
+    "https://eng.wealthfront.com",
+    "https://research.wealthfront.com"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://www.wealthfront.com/contact-us",
+    "contactType": "customer support"
+  },
+  "areaServed": "US",
+  "knowsAbout": [
+    "Automated Investing",
+    "Portfolio Management",
+    "Tax-Loss Harvesting",
+    "Direct Indexing",
+    "Cash Management",
+    "Financial Planning",
+    "Robo-Advisory",
+    "Retirement Planning"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Wealthfront Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Automated Investing",
+        "url": "https://www.wealthfront.com/investing",
+        "description": "Automated portfolio management with tax-loss harvesting and direct indexing."
+      },
+      {
+        "@type": "Offer",
+        "name": "Cash Account",
+        "url": "https://www.wealthfront.com/cash",
+        "description": "High-yield cash management account with 3.30% APY and FDIC insurance up to $8 million."
+      },
+      {
+        "@type": "Offer",
+        "name": "Path Financial Planning",
+        "url": "https://www.wealthfront.com/",
+        "description": "Personalized financial planning and retirement projection tool."
+      }
+    ]
+  },
+  "makesOffer": {
+    "@type": "Service",
+    "name": "Wealthfront Automated Investment Service",
+    "description": "Automated investment management with tax optimization, direct indexing, and cash management.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Wealthfront"
+    },
+    "serviceType": "Financial Services",
+    "termsOfService": "https://www.wealthfront.com/legal",
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://www.wealthfront.com",
+      "availableLanguage": "English"
+    }
+  }
+}
