@@ -1,0 +1,57 @@
+name: Wealthfront FinOps
+description: Financial operations, cost management, and fee transparency for Wealthfront services.
+url: https://www.wealthfront.com/pricing
+
+advisory_fees:
+  - service: Automated Investing Account
+    fee: 0.25% annually
+    calculation: Applied to total managed assets
+    example: $15,000 balance = approximately $3.18/month
+    url: https://www.wealthfront.com/pricing
+
+  - service: US Direct Indexing
+    fee: Included in 0.25% advisory fee
+    minimum_balance: $100,000
+    url: https://support.wealthfront.com/hc/en-us/articles/211005023-Wealthfront-s-US-Direct-Indexing
+
+  - service: Smart Beta
+    fee: Included in 0.25% advisory fee
+    minimum_balance: $500,000
+    url: https://research.wealthfront.com/whitepapers/smart-beta/
+
+  - service: Stock Investing Account
+    fee: No advisory or management fees
+    trading_commissions: None
+    minimum_balance: $1
+
+  - service: Cash Account
+    fee: No account fees
+    apy_base: 3.30%
+    apy_max: 4.20%
+    fdic_coverage_individual: $8,000,000
+    fdic_coverage_joint: $16,000,000
+    url: https://www.wealthfront.com/cash
+
+tax_optimization:
+  - name: Tax-Loss Harvesting
+    description: Automated daily tax-loss harvesting available to all investing accounts.
+    fee_offset: Historically covers advisory fee more than 7x over for Classic portfolio clients
+    minimum_balance: $0
+    url: https://www.wealthfront.com/tax-loss-harvesting
+
+  - name: Direct Indexing Tax Savings
+    description: Stock-level tax-loss harvesting providing greater savings than ETF-only harvesting.
+    minimum_balance: $100,000
+
+company_financials:
+  aum: $95 billion (as of May 2026)
+  clients: 1.4 million+
+  revenue_2025: $339 million
+  net_income_2025: $123 million
+  employees: 330
+  ipo: "December 2025 (Nasdaq: WLTH)"
+  ipo_raise: $485 million
+
+atm_fees:
+  reimbursement: Up to 2 ATM fees per month (up to $7.50 each)
+  service: Cash Account debit card

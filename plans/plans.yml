@@ -1,0 +1,75 @@
+name: Wealthfront Plans
+description: Pricing plans and fee structure for Wealthfront investment and cash management services.
+url: https://www.wealthfront.com/pricing
+plans:
+
+  - name: Automated Investing Account
+    description: Robo-advisor service with automated portfolio management, tax-loss harvesting, and rebalancing.
+    url: https://www.wealthfront.com/investing
+    price: 0.25% annual advisory fee
+    minimum: $500
+    features:
+      - Automated portfolio management
+      - Tax-Loss Harvesting (all balance levels)
+      - Automatic rebalancing
+      - Expert-built customizable portfolios
+      - Account tracking and net worth monitoring
+      - Dividend reinvestment
+
+  - name: US Direct Indexing
+    description: Stock-level tax-loss harvesting replacing US equity ETFs with up to 1,001 individual S&P 1500 stocks.
+    url: https://support.wealthfront.com/hc/en-us/articles/211005023-Wealthfront-s-US-Direct-Indexing
+    price: Included in 0.25% annual advisory fee
+    minimum: $100,000
+    features:
+      - Individual stock ownership (up to 1,001 securities)
+      - Stock-level tax-loss harvesting
+      - Greater tax optimization than ETF-only portfolios
+      - Automatic rebalancing
+
+  - name: Smart Beta
+    description: Factor-weighted portfolio strategy for enhanced returns with tax-loss harvesting.
+    url: https://research.wealthfront.com/whitepapers/smart-beta/
+    price: Included in 0.25% annual advisory fee
+    minimum: $500,000
+    features:
+      - Factor-weighted stock selection
+      - Stock-level tax-loss harvesting
+      - Automated rebalancing
+
+  - name: Stock Investing Account
+    description: Self-directed investing with no advisory fees, fractional shares, and pre-built collections.
+    url: https://www.wealthfront.com/investing
+    price: Free (no advisory or management fees)
+    minimum: $1
+    features:
+      - Fractional share investing
+      - No commissions on trades
+      - 45+ pre-built investment collections
+      - Individual stock selection
+
+  - name: Cash Account
+    description: High-yield cash management account with FDIC insurance up to $8M and banking features.
+    url: https://www.wealthfront.com/cash
+    price: Free (no account fees)
+    minimum: $1
+    features:
+      - 3.30% APY base rate
+      - Up to 4.20% APY with boosts
+      - FDIC insured up to $8M (individual) / $16M (joint)
+      - Debit card with ATM fee reimbursement
+      - Bill pay and check writing
+      - Mobile deposits
+      - Free wire transfers
+      - Instant withdrawals (24/7)
+      - Cash Categories for goal organization
+
+  - name: 529 College Savings Plan
+    description: Tax-advantaged college savings account managed with automated investing strategies.
+    url: https://www.wealthfront.com/
+    price: 0.25% annual advisory fee
+    minimum: $1
+    features:
+      - Tax-advantaged growth
+      - Automated portfolio management
+      - Rebalancing

@@ -1,0 +1,202 @@
+aid: wealthfront
+name: Wealthfront
+description: >
+  Wealthfront is an automated investment service offering REST APIs and integrations for
+  portfolio management, financial planning, tax optimization, direct indexing, and cash
+  account management. Founded in 2008 and headquartered in Palo Alto, California,
+  Wealthfront manages approximately $95 billion in assets for over 1.4 million clients
+  as of 2026. The platform provides automated investing with tax-loss harvesting, direct
+  indexing for accounts over $100,000, high-yield cash management accounts with FDIC
+  insurance up to $8 million, and stock investing with no advisory fees. Wealthfront
+  went public on Nasdaq (WLTH) in December 2025.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/apis.yml
+baseURL: https://www.wealthfront.com
+humanURL: https://www.wealthfront.com
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+type: Index
+tags:
+  - Finance
+  - Investment
+  - Portfolio Management
+  - Tax Optimization
+  - Robo-Advisor
+  - Wealth Management
+  - Cash Management
+  - Direct Indexing
+  - Financial Planning
+  - FinTech
+
+apis:
+
+  - aid: wealthfront:automated-investing-api
+    name: Wealthfront Automated Investing API
+    description: >
+      Internal REST API powering Wealthfront's automated portfolio management service.
+      Supports account creation, portfolio configuration, risk assessment, automated
+      rebalancing, and tax-loss harvesting for diversified index fund portfolios.
+      Consumed by Wealthfront iOS, Android, and web applications.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.wealthfront.com/investing
+    baseURL: https://www.wealthfront.com
+    tags:
+      - Portfolio Management
+      - Automated Investing
+      - Rebalancing
+      - Index Funds
+    properties:
+      - type: Documentation
+        url: https://www.wealthfront.com/investing
+      - type: EngineeringBlog
+        url: https://eng.wealthfront.com
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/rate-limits/rate-limits.yml
+
+  - aid: wealthfront:tax-optimization-api
+    name: Wealthfront Tax Optimization API
+    description: >
+      Automated tax optimization service providing daily tax-loss harvesting, direct
+      indexing at the stock level for accounts over $100,000, and Smart Beta factor
+      weighting for accounts over $500,000. The system monitors investments daily
+      and automatically harvests losses to minimize tax liability while maintaining
+      portfolio risk profile.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.wealthfront.com/tax-loss-harvesting
+    baseURL: https://www.wealthfront.com
+    tags:
+      - Tax Optimization
+      - Tax-Loss Harvesting
+      - Direct Indexing
+      - Smart Beta
+    properties:
+      - type: Documentation
+        url: https://www.wealthfront.com/tax-loss-harvesting
+      - type: SupportArticle
+        url: https://support.wealthfront.com/hc/en-us/articles/211005023-Wealthfront-s-US-Direct-Indexing
+      - type: SupportArticle
+        url: https://support.wealthfront.com/hc/en-us/articles/209348486-Tax-Loss-Harvesting
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/plans/plans.yml
+
+  - aid: wealthfront:cash-account-api
+    name: Wealthfront Cash Account API
+    description: >
+      High-yield cash management account API supporting deposits, withdrawals, transfers,
+      bill pay, and debit card management. Offers 3.30% base APY with FDIC insurance
+      up to $8 million through deposits swept across up to 32 program banks. Features
+      instant withdrawals, wire transfers, and automated transfer scheduling.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.wealthfront.com/cash
+    baseURL: https://www.wealthfront.com
+    tags:
+      - Cash Management
+      - High-Yield Savings
+      - FDIC Insurance
+      - Banking
+      - Debit Card
+    properties:
+      - type: Documentation
+        url: https://www.wealthfront.com/cash
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/plans/plans.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/finops/finops.yml
+
+  - aid: wealthfront:account-linking-api
+    name: Wealthfront Account Linking API
+    description: >
+      External account linking and data aggregation platform that connects Wealthfront
+      with third-party financial institutions via vendors such as Plaid and Finicity.
+      Handles authentication on behalf of clients, ingestion of external account data,
+      and computation over linked account data to power Path financial planning features
+      and net worth tracking.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://support.wealthfront.com/hc/en-us/articles/115000311663-How-do-I-link-an-outside-account-to-Wealthfront
+    baseURL: https://www.wealthfront.com
+    tags:
+      - Account Linking
+      - Data Aggregation
+      - Plaid
+      - Financial Planning
+      - Net Worth
+    properties:
+      - type: Documentation
+        url: https://support.wealthfront.com/hc/en-us/articles/115000311663-How-do-I-link-an-outside-account-to-Wealthfront
+      - type: EngineeringBlog
+        url: https://eng.wealthfront.com/2021/04/01/our-journey-to-a-generic-linking-platform/
+
+  - aid: wealthfront:financial-planning-api
+    name: Wealthfront Financial Planning API (Path)
+    description: >
+      Financial planning and retirement projection API powering Wealthfront's Path
+      product. Aggregates linked external accounts, models retirement scenarios, and
+      provides personalized projections for goals including home purchase, college
+      savings (529 plans), and retirement. Leverages linked external account data
+      to generate holistic financial plans.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.wealthfront.com/
+    baseURL: https://www.wealthfront.com
+    tags:
+      - Financial Planning
+      - Retirement Planning
+      - Path
+      - College Savings
+      - 529 Plans
+    properties:
+      - type: Documentation
+        url: https://www.wealthfront.com/
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/plans/plans.yml
+
+common:
+
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/plans/plans.yml
+
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/rate-limits/rate-limits.yml
+
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/finops/finops.yml
+
+  - type: Website
+    url: https://www.wealthfront.com
+
+  - type: EngineeringBlog
+    url: https://eng.wealthfront.com
+
+  - type: GitHub
+    url: https://github.com/wealthfront
+
+  - type: Pricing
+    url: https://www.wealthfront.com/pricing
+
+  - type: Blog
+    url: https://www.wealthfront.com/blog
+
+  - type: Support
+    url: https://support.wealthfront.com
+
+  - type: Contact
+    url: https://www.wealthfront.com/contact-us
+
+  - type: Research
+    url: https://research.wealthfront.com
+
+  - type: Security
+    url: https://www.wealthfront.com/security
+
+  - type: TermsOfService
+    url: https://www.wealthfront.com/legal
+
+  - type: PrivacyPolicy
+    url: https://www.wealthfront.com/privacy
+
+maintainers:
+
+  - FN: Kin Lane
+    email: kin@apievangelist.com

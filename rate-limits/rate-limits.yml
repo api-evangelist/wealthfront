@@ -1,0 +1,32 @@
+name: Wealthfront Rate Limits
+description: Rate limiting and API usage constraints for Wealthfront's internal and integration APIs.
+url: https://www.wealthfront.com/
+notes: >
+  Wealthfront does not publish a public external developer API with documented rate limits.
+  Their REST API is consumed internally by their iOS, Android, and web applications.
+  Account linking with third-party services (Plaid, Finicity) follows those providers'
+  respective rate limits. The following represents known operational constraints.
+
+limits:
+
+  - name: Account Linking
+    description: External account linking via data aggregation vendors (e.g., Plaid integration).
+    type: Integration
+    notes: Rate limits governed by third-party linking vendor (Plaid/Finicity) agreements.
+    references:
+      - https://eng.wealthfront.com/2021/04/01/our-journey-to-a-generic-linking-platform/
+
+  - name: Portfolio API (Internal)
+    description: Internal REST API used by Wealthfront mobile and web clients.
+    type: Internal
+    notes: >
+      Wealthfront enforces REST API standards internally via Swagger/OpenAPI definitions.
+      External rate limit documentation is not publicly available.
+    references:
+      - https://eng.wealthfront.com/2016/08/31/enforce-rest-api-standard-with-swagger/
+
+  - name: Daily Tax-Loss Harvesting
+    description: Automated daily scanning for tax-loss harvesting opportunities.
+    type: Operational
+    frequency: Daily
+    notes: System automatically monitors investments daily for tax-loss harvesting events.
