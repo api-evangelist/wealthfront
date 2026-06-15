@@ -2,7 +2,7 @@
   "url": "https://eng.wealthfront.com",
   "name": "Wealthfront Engineering Blog",
   "description": "Engineering blog covering fintech infrastructure, mobile development, database engineering, and software architecture at Wealthfront.",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "Putting the Tech in Fintech: How We Use FIX to Execute Trades at Scale",
@@ -10,7 +10,13 @@
       "date": "2026-04-21",
       "author": "Grace Sun",
       "summary": "Wealthfront explains how they leverage the FIX (Financial Information eXchange) protocol to execute thousands of trades efficiently, covering their four-layer infrastructure: networking, protocol, QuickFIX/J library, and an internal application layer that translates between domain objects and FIX messages.",
-      "tags": ["FIX Protocol", "Trading", "Infrastructure", "Java", "QuickFIX"]
+      "tags": [
+        "FIX Protocol",
+        "Trading",
+        "Infrastructure",
+        "Java",
+        "QuickFIX"
+      ]
     },
     {
       "title": "How we standardized MariaDB in our Integration Server",
@@ -18,7 +24,14 @@
       "date": "2026-03-26",
       "author": "Eloy Gonzalez",
       "summary": "Wealthfront migrated their Integration Server from HSQLDB to MariaDB to achieve better test/production parity, using Testcontainers to manage MariaDB instances in Docker and socket mounting for CI/CD pipeline compatibility.",
-      "tags": ["MariaDB", "Testing", "CI/CD", "Docker", "Testcontainers", "Database"]
+      "tags": [
+        "MariaDB",
+        "Testing",
+        "CI/CD",
+        "Docker",
+        "Testcontainers",
+        "Database"
+      ]
     },
     {
       "title": "XcodeGen and the quest to modularize the Wealthfront iOS app",
@@ -26,7 +39,14 @@
       "date": "2026-03-02",
       "author": "Matthew Bommer",
       "summary": "Wealthfront's iOS engineering team adopted XcodeGen to eliminate merge conflicts on binary project files and enable modularization of their 10-year-old monolithic app into independently compilable Swift packages with enforced architectural boundaries.",
-      "tags": ["iOS", "XcodeGen", "Modularization", "Swift", "Mobile", "Architecture"]
+      "tags": [
+        "iOS",
+        "XcodeGen",
+        "Modularization",
+        "Swift",
+        "Mobile",
+        "Architecture"
+      ]
     },
     {
       "title": "New Leaders, New Perspectives: Why We Joined Wealthfront Engineering",
@@ -34,7 +54,11 @@
       "date": "2026-02-12",
       "author": "Wealthfront Engineering",
       "summary": "New engineering leaders share their perspectives on joining Wealthfront and what drew them to the company's engineering culture and mission.",
-      "tags": ["Engineering Culture", "Leadership", "Careers"]
+      "tags": [
+        "Engineering Culture",
+        "Leadership",
+        "Careers"
+      ]
     },
     {
       "title": "The Hidden Cost of Convenience: Rethinking Old ORM Patterns for Scale",
@@ -42,7 +66,15 @@
       "date": "2025-12-08",
       "author": "Andrew Houts",
       "summary": "Wealthfront rewrote their portfolio balance calculation system to address severe performance degradation caused by inefficient Hibernate ORM patterns, achieving approximately a tenth of the original processing time by adopting dependency injection and proper separation of concerns.",
-      "tags": ["Hibernate", "ORM", "Performance", "Java", "Architecture", "Database", "Portfolio"]
+      "tags": [
+        "Hibernate",
+        "ORM",
+        "Performance",
+        "Java",
+        "Architecture",
+        "Database",
+        "Portfolio"
+      ]
     },
     {
       "title": "Automating Exhaustive Branch Coverage for Sealed Types in Kotlin",
@@ -50,7 +82,25 @@
       "date": "2025-11-20",
       "author": "Sean Amos",
       "summary": "Wealthfront created a custom JUnit Test Runner using @Exhaustive and @ExhaustiveCase annotations to automatically enforce that all subtypes of Kotlin sealed classes have corresponding unit tests, eliminating manual code review checks for test completeness.",
-      "tags": ["Kotlin", "Testing", "JUnit", "Sealed Classes", "Android", "Code Quality"]
+      "tags": [
+        "Kotlin",
+        "Testing",
+        "JUnit",
+        "Sealed Classes",
+        "Android",
+        "Code Quality"
+      ]
     }
-  ]
+  ],
+  "repo": "wealthfront",
+  "feeds": [
+    {
+      "source": "https://www.wealthfront.com/pricing",
+      "feed_url": "https://www.wealthfront.com/pricing",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
