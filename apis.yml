@@ -9,7 +9,7 @@ description: >
   indexing for accounts over $100,000, high-yield cash management accounts with FDIC
   insurance up to $8 million, and stock investing with no advisory fees. Wealthfront
   went public on Nasdaq (WLTH) in December 2025.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/apis.yml
 baseURL: https://www.wealthfront.com
 humanURL: https://www.wealthfront.com
@@ -38,7 +38,7 @@ apis:
       Supports account creation, portfolio configuration, risk assessment, automated
       rebalancing, and tax-loss harvesting for diversified index fund portfolios.
       Consumed by Wealthfront iOS, Android, and web applications.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wealthfront.com/investing
     baseURL: https://www.wealthfront.com
     tags:
@@ -64,7 +64,7 @@ apis:
       weighting for accounts over $500,000. The system monitors investments daily
       and automatically harvests losses to minimize tax liability while maintaining
       portfolio risk profile.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wealthfront.com/tax-loss-harvesting
     baseURL: https://www.wealthfront.com
     tags:
@@ -89,7 +89,7 @@ apis:
       bill pay, and debit card management. Offers 3.30% base APY with FDIC insurance
       up to $8 million through deposits swept across up to 32 program banks. Features
       instant withdrawals, wire transfers, and automated transfer scheduling.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wealthfront.com/cash
     baseURL: https://www.wealthfront.com
     tags:
@@ -114,7 +114,7 @@ apis:
       Handles authentication on behalf of clients, ingestion of external account data,
       and computation over linked account data to power Path financial planning features
       and net worth tracking.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://support.wealthfront.com/hc/en-us/articles/115000311663-How-do-I-link-an-outside-account-to-Wealthfront
     baseURL: https://www.wealthfront.com
     tags:
@@ -137,7 +137,7 @@ apis:
       provides personalized projections for goals including home purchase, college
       savings (529 plans), and retirement. Leverages linked external account data
       to generate holistic financial plans.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wealthfront.com/
     baseURL: https://www.wealthfront.com
     tags:
