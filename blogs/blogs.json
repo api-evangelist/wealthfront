@@ -2,7 +2,7 @@
   "url": "https://eng.wealthfront.com",
   "name": "Wealthfront Engineering Blog",
   "description": "Engineering blog covering fintech infrastructure, mobile development, database engineering, and software architecture at Wealthfront.",
-  "fetched": "2026-06-14T20:42:17Z",
+  "fetched": "2026-06-27T12:03:07Z",
   "posts": [
     {
       "title": "Putting the Tech in Fintech: How We Use FIX to Execute Trades at Scale",
@@ -95,6 +95,13 @@
   "repo": "wealthfront",
   "feeds": [
     {
+      "source": "https://www.wealthfront.com/blog/feed/",
+      "feed_url": "https://www.wealthfront.com/blog/feed/",
+      "title": "",
+      "saved": 1,
+      "method": "feed"
+    },
+    {
       "source": "https://www.wealthfront.com/pricing",
       "feed_url": "https://www.wealthfront.com/pricing",
       "title": "",
@@ -102,5 +109,5 @@
       "method": "none"
     }
   ],
-  "post_count": 0
+  "post_count": 1
 }
