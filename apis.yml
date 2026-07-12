@@ -154,6 +154,10 @@ apis:
 
 common:
 
+  - type: VulnerabilityDisclosure
+    url: security/wealthfront-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/wealthfront-domain-security.yml
   - type: Plans
     url: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/plans/plans.yml
 
