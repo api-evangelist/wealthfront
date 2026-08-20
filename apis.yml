@@ -32,6 +32,17 @@ type: Index
 tags:
   - Finance
   - Investment
+  - Portfolio-Management
+  - Tax Optimization
+  - Robo-Advisor
+  - Wealth Management
+  - Cash Management
+  - Direct Indexing
+  - Financial Planning
+  - Fintech
+tags_raw:
+  - Finance
+  - Investment
   - Portfolio Management
   - Tax Optimization
   - Robo-Advisor
@@ -54,6 +65,11 @@ apis:
     humanURL: https://www.wealthfront.com/investing
     baseURL: https://www.wealthfront.com
     tags:
+      - Portfolio-Management
+      - Automated Investing
+      - Rebalancing
+      - Index Funds
+    tags_raw:
       - Portfolio Management
       - Automated Investing
       - Rebalancing
