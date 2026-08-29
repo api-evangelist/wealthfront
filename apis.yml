@@ -9,6 +9,17 @@ description: >
   indexing for accounts over $100,000, high-yield cash management accounts with FDIC
   insurance up to $8 million, and stock investing with no advisory fees. Wealthfront
   went public on Nasdaq (WLTH) in December 2025.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
