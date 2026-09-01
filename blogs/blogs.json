@@ -99,7 +99,9 @@
       "feed_url": "https://www.wealthfront.com/blog/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "nature": "vendor-blog",
+      "nature_basis": "path_blog"
     },
     {
       "source": "https://www.wealthfront.com/pricing",
@@ -109,5 +111,8 @@
       "method": "none"
     }
   ],
-  "post_count": 16
+  "post_count": 16,
+  "feed_nature": "vendor-blog",
+  "feed_nature_basis": "path_blog",
+  "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
 }
