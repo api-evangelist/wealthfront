@@ -136,6 +136,12 @@ apis:
       - High-Yield Savings
       - FDIC Insurance
       - Banking
+      - Debit Cards
+    tags_raw:
+      - Cash Management
+      - High-Yield Savings
+      - FDIC Insurance
+      - Banking
       - Debit Card
     properties:
       - type: Documentation
