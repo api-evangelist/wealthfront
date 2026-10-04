@@ -43,7 +43,7 @@ type: Index
 tags:
   - Finance
   - Investment
-  - Portfolio-Management
+  - Portfolio Management
   - Tax Optimization
   - Robo-Advisor
   - Wealth Management
@@ -62,6 +62,7 @@ tags_raw:
   - Direct Indexing
   - Financial Planning
   - FinTech
+  - Portfolio-Management
 
 apis:
 
@@ -74,9 +75,8 @@ apis:
       Consumed by Wealthfront iOS, Android, and web applications.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wealthfront.com/investing
-    baseURL: https://www.wealthfront.com
     tags:
-      - Portfolio-Management
+      - Portfolio Management
       - Automated Investing
       - Rebalancing
       - Index Funds
@@ -85,6 +85,7 @@ apis:
       - Automated Investing
       - Rebalancing
       - Index Funds
+      - Portfolio-Management
     properties:
       - type: Documentation
         url: https://www.wealthfront.com/investing
@@ -105,7 +106,6 @@ apis:
       portfolio risk profile.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wealthfront.com/tax-loss-harvesting
-    baseURL: https://www.wealthfront.com
     tags:
       - Tax Optimization
       - Tax-Loss Harvesting
@@ -130,7 +130,6 @@ apis:
       instant withdrawals, wire transfers, and automated transfer scheduling.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wealthfront.com/cash
-    baseURL: https://www.wealthfront.com
     tags:
       - Cash Management
       - High-Yield Savings
@@ -161,7 +160,6 @@ apis:
       and net worth tracking.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://support.wealthfront.com/hc/en-us/articles/115000311663-How-do-I-link-an-outside-account-to-Wealthfront
-    baseURL: https://www.wealthfront.com
     tags:
       - Account Linking
       - Data Aggregation
@@ -184,7 +182,6 @@ apis:
       to generate holistic financial plans.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wealthfront.com/
-    baseURL: https://www.wealthfront.com
     tags:
       - Financial Planning
       - Retirement Planning
