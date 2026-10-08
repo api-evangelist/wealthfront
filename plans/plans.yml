@@ -77,3 +77,46 @@ plans:
       - Tax-advantaged growth
       - Automated portfolio management
       - Rebalancing
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: Automated Investing Account
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: US Direct Indexing
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Smart Beta
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Stock Investing Account
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Cash Account
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: 529 College Savings Plan
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
