@@ -64,37 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wealthfront is an automated investment service offering portfolio management, financial planning, tax optimization, direct indexing, and cash account management. Founded in 2008 and headquartered in Palo Alto, California, Wealthfront manages approximately $95 billion in assets for over 1.4 million clients. The company went public on Nasdaq (WLTH) in December 2025.
+Wealthfront is an automated investment service offering REST APIs and integrations for portfolio management, financial planning, tax optimization, direct indexing, and cash account management. Founded in 2008 and headquartered in Palo Alto, California, Wealthfront manages approximately $95 billion in assets for over 1.4 million clients as of 2026. The platform provides automated investing with tax-loss harvesting, direct indexing for accounts over $100,000, high-yield cash management accounts with FDIC insurance up to $8 million, and stock investing with no advisory fees. Wealthfront went public on Nasdaq (WLTH) in December 2025.
 
-## APIs
+**Areas:** Finance · Investment · Portfolio Management · Tax Optimization · Robo-Advisor · Wealth Management · Cash Management · Direct Indexing · Financial Planning · Fintech
 
-- **Automated Investing API** - Portfolio management, rebalancing, and automated investing
-- **Tax Optimization API** - Tax-loss harvesting, direct indexing, and Smart Beta
-- **Cash Account API** - High-yield cash management with FDIC insurance up to $8M
-- **Account Linking API** - External account linking and data aggregation via Plaid/Finicity
-- **Financial Planning API (Path)** - Retirement projections and goal-based financial planning
+## Wealthfront on APIs.io
 
-## Plans
+Everything profiled for Wealthfront is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wealthfront/](https://apis.io/providers/wealthfront/)** — or go straight to one of the APIs or properties below.
 
-| Plan | Minimum | Fee |
-|------|---------|-----|
-| Automated Investing | $500 | 0.25% annually |
-| US Direct Indexing | $100,000 | Included in 0.25% |
-| Smart Beta | $500,000 | Included in 0.25% |
-| Stock Investing | $1 | Free |
-| Cash Account | $1 | Free |
+### APIs (5)
 
-## Links
+- [Wealthfront Automated Investing API](https://apis.io/apis/wealthfront/automated-investing-api/) — Internal REST API powering Wealthfront's automated portfolio management service. Supports account creation, portfolio configuration, risk assessment,…
+- [Wealthfront Tax Optimization API](https://apis.io/apis/wealthfront/tax-optimization-api/) — Automated tax optimization service providing daily tax-loss harvesting, direct indexing at the stock level for accounts over $100,000, and Smart Beta factor…
+- [Wealthfront Cash Account API](https://apis.io/apis/wealthfront/cash-account-api/) — High-yield cash management account API supporting deposits, withdrawals, transfers, bill pay, and debit card management. Offers 3.30% base APY with FDIC…
+- [Wealthfront Account Linking API](https://apis.io/apis/wealthfront/account-linking-api/) — External account linking and data aggregation platform that connects Wealthfront with third-party financial institutions via vendors such as Plaid and…
+- [Wealthfront Financial Planning API (Path)](https://apis.io/apis/wealthfront/financial-planning-api/) — Financial planning and retirement projection API powering Wealthfront's Path product. Aggregates linked external accounts, models retirement scenarios, and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [wealthfront](https://apis.io/servers/wealthfront/wealthfront/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wealthfront Domain Security](https://apis.io/security/wealthfront/wealthfront-domain-security/)
+- [Wealthfront Vulnerability Disclosure](https://apis.io/security/wealthfront/wealthfront-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/wealthfront/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/wealthfront/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/wealthfront/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.wealthfront.com)
-- [Investing](https://www.wealthfront.com/investing)
-- [Cash Account](https://www.wealthfront.com/cash)
 - [Pricing](https://www.wealthfront.com/pricing)
-- [Engineering Blog](https://eng.wealthfront.com)
-- [GitHub](https://github.com/wealthfront)
 - [Support](https://support.wealthfront.com)
-- [Research](https://research.wealthfront.com)
+- [Blog](https://www.wealthfront.com/blog)
+- [Security](https://www.wealthfront.com/security)
+- [Terms of service](https://www.wealthfront.com/legal)
+- [Privacy policy](https://www.wealthfront.com/privacy)
 
-## APIs.json
+## API Evangelist rating
 
-This repository contains an [APIs.json 0.19](apis.yml) index cataloging Wealthfront's API surface.
+**Kin Score 18.8** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 28.9 |
+
+**Agent readiness 14.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wealthfront/](https://apis.io/providers/wealthfront/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wealthfront: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wealthfront/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
